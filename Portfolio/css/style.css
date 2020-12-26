@@ -1,0 +1,188 @@
+@import url("./partials/variables.css");
+@import "./partials/_globals.css";
+html{
+	scroll-behavior: smooth;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+  padding:0 2rem 0 5rem;
+  text-shadow: var(--box-shadow);
+}
+.header_area .main-menu .navbar{
+  padding:1rem 5rem;
+  /* background-color: var(); */
+}
+.header_area .main-menu .nav-item .nav-link{
+  padding:1.5rem;
+  color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.header_area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  /* background-clip: text; */
+}
+.header_area .main-menu .navbar .navbar-brand{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  font-family:var(--roboto);
+  color:var(--primary-color2);
+}
+p{
+  color:var(--primary-color);
+}
+.img-fluid{
+  height: 560px;
+  margin-left:4%;
+}
+
+/* banner area */
+.site-main .site-banner{
+  /* background image */
+
+}
+.site-main .site-banner .site-title h3{
+  padding-top:35%;
+  font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+  content:"";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+  font-size: 4rem;
+}
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+  padding:7rem 0;
+  width: 90rem;
+}
+
+/* end banner area */
+
+/* About area */
+.site-main .about-area{
+  padding:8rem 5rem;
+}
+.site-main .about-area .about-title h2 >span{
+  display: block;
+  font:normal bold 49px/60px var(--roboto);
+  letter-spacing: 21px;
+
+}
+.site-main .about-area .about-title .paragraph > p{
+  padding: .4rem 0;
+}
+/* end About area */
+
+/* project area */
+.site-main .project-area{
+  padding:4rem 0;
+
+}
+.site-main .project-area .button-group button{
+  background: transparent;
+  border:none;
+  font:normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button{
+  padding-left: 3rem;
+}
+.site-main .project-area .grid .our-project > .title h4{
+  font:normal 700 25px/12px var(--roboto);
+}
+.site-main .project-area .grid .our-project img{
+  width:100%;
+}
+.site-main .project-area .grid .our-project .img a:hover img{
+  filter: brightness(1.1)drop-shadow(5px 5px 5px #b1afaf);
+}
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+    cursor:pointer;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    margin-top: -100px;
+    margin-right: -350px;
+  }
+/* end project area */
+
+/* subscribe area */
+.site-main .subscribe-us-area .subscribe{
+  background: url('../images/subscribe-bg.png') no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+  border-radius: 5px;
+}
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+  font:normal 700 30px/30px var(--roboto);
+  color:whitesmoke;
+  padding: 1rem 4rem;
+
+}
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+  color:whitesmoke;
+  padding-bottom: 1rem;
+}
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border:1px solid whitesmoke;
+  background: transparent;
+  color:white;
+  font:normal 500 17px/20px var(--roboto);
+}
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+  color:whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+  margin-top: -50px;
+  background-color: whitesmoke;
+  color:black;
+  padding: .7rem 2rem;
+  font:normal 500 17px/20px var(--roboto);
+  box-shadow: var(--box-shadow);
+}
+/* end subscribe-area */
+
+/* footer area */
+.footer-area{
+  padding: 5rem 0;
+}
+.footer-area .social h5{
+  font:normal 500 23px/30px var(--roboto);
+}
+.footer-area .social a >i{
+  font-size: 22px;
+  padding: 2rem;
+  color:var(--border-color);
+}
+.footer-area .copyrights{
+	margin-top: 1%;
+}
+.footer-area .copyrights a:hover{
+  text-decoration: none;
+  text-shadow: var(--box-shadow);
+}
+.footer-area .social a:hover > i{
+  color:var(--primary-color2);
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+}
+/* end footer area */

@@ -1,0 +1,94 @@
+/* if viewport is equal to 340px  or less than that */
+
+@media only screen and (max-width: 985px)
+{
+  .site-main .site-banner .container .row .site-title h1{
+    font-size: 3rem;
+  }
+  .img-fluid{
+    /* margin-left: 0; */
+    margin: 4%;
+    height: 400px;
+  }
+  .about-area .container-fluid .row .col-md-12{
+    text-align: center;
+  }
+  .about-area .container-fluid .row .col-md-12 .paragraph{
+    width: 100% !important;
+  }
+  .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    margin-left: -130px;
+  }
+  .site-main .subscribe-us-area .subscribe form .btn-submit button{
+    margin-right: -100px;
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 766px)
+{
+  .subscribe-area .subscribe{
+    margin:5%;
+  }
+}
+@media only screen and (max-width: 710px)
+{
+  .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 300px;
+  }
+
+}
+
+@media only screen and (max-width: 574px)
+{
+  .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    margin-left:40%;
+  }
+  .site-main .subscribe-us-area .subscribe form .btn-submit button{
+    margin-right: -60px;
+    margin-top: 30px;
+  }
+  .site-main .project-area .button-group button + button {
+    padding-left: 2rem;
+}
+  .header_area .main-menu .navbar .navbar-brand {
+    padding:0;
+  }
+  .navbar-light .navbar-toggler{
+    margin-left: 95%;
+    margin-top: -50px;
+  }
+}
+@media only screen and (max-width: 340px){
+  .header_area .main-menu .navbar,.header_area .main-menu .navbar .navbar-brand,.site-main .subscribe-us-area .subscribe,.site-main .subscribe-us-area .subscribe .subscribe-title,.site-main .subscribe-us-area .subscribe .subscribe-title h4,.site-main .services-area{
+    padding: 2%;
+    margin: 0;
+  }
+  .site-main .site-banner .site-title h1{
+    font-size: 2rem !important;
+  }
+  .site-main .site-banner .site-title h3
+  {
+    font-size: 2rem !important;
+  }
+  .header_area .main-menu .navbar .navbar-brand {
+    margin-left: -10px !important;
+  }
+}
+@media only screen and (max-width:378px)
+{
+  .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    margin-left:15%;
+  }
+  .site-main .subscribe-us-area .subscribe form .btn-submit button{
+    margin-right: -60px;
+    margin-top: 4px;
+  }
+  .site-main .project-area .button-group button + button {
+    padding-left: 2rem;
+}
+.header_area .main-menu .navbar .navbar-brand {
+  margin-left: -40px;
+}
+}
